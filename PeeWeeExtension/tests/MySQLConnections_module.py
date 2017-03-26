@@ -1,6 +1,6 @@
 import unittest
-from MoneyMaker.Database import MySQL_BaseModel, Environment, MySQLConnections
-from MoneyMaker.Globals import Globals
+from PeeWeeExtension.Database import MySQL_BaseModel, Environment, MySQLConnections
+from PeeWeeExtension.Globals import Globals
 
 class MySQLConnection_Initialization_case(unittest.TestCase):
 	def test_raise_if_unkown_environment(self):

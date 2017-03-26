@@ -4,8 +4,8 @@
 from playhouse.pool import PooledMySQLDatabase
 from peewee import *
 
-# MoneyMaker libs
-from MoneyMaker.Globals import Globals
+# PeeWeeExtension libs
+from PeeWeeExtension.Globals import Globals
 
 class Environment(object):
 	default     = 'default'
@@ -65,7 +65,7 @@ class MySQLConnections(object):
 
 class MySQL_BaseModel(Model):
 	"""
-	Use this as the base data model for all data in the MoneyMaker application.
+	Use this as the base data model for all data in the PeeWeeExtension application.
 
 	This class uses MySQLConnections to dynamically manage a pool of database connections to all environments.
 	"""

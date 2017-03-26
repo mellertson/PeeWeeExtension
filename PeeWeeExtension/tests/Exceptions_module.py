@@ -1,6 +1,6 @@
 import unittest
 
-from MoneyMaker.Exceptions import *
+from PeeWeeExtension.Exceptions import *
 
 class Exceptions_case(unittest.TestCase):
 	def test_raising_exceptions(self):

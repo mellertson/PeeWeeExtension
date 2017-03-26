@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 from peewee import *
-from MoneyMaker.Database import Environment, MySQL_BaseModel
+from PeeWeeExtension.Database import Environment, MySQL_BaseModel
 
 # The one and only database connection
 db = Environment.test
